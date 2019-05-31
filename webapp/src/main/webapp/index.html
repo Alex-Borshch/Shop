@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Интернет-магазин комплектующих для ПК</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/videocards.css">
+</head>
+
+<body>
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header" id="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="order.html">Корзина</a>
+            <a href="order.html"><i class="fa fa-shopping-cart fa-3x" aria-hidden="true"></i></a>;
+
+            <a href="login.html">Войти</a>;
+            <a href="registration.html">Регистрация</a>
+
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="index.html">Домой</a></li>
+                <li><a href="#">О нас</a></li>
+                <li><a href="#">Отзывы</a></li>
+                <li><a href="#">Адреса</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="main">
+    <div class="wrapper">
+        <div class="sidebar">
+
+            <div class="category_title">
+                <h3>Товары и услуги</h3>
+                <ul id="category_list">
+                </ul>
+            </div>
+            <div class="about">
+                <h4>Интернет-магазин</h4>
+                <p>a</p>
+            </div>
+        </div>
+        <div class="right_col" id="right_column">
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="wrapper">
+        <footer>
+            asdfasdfasdf
+        </footer>
+    </div>
+
+</div>
+<script src="js/lib/jquery-3.1.0.min.js"></script>
+<script src="js/lib/bootstrap.js"></script>
+<script src="js/loadCategories.js"></script>
+<script src="js/login.js"></script>
+<script>
+    $('document').ready(function(){
+        loadCategories();
+        loadLiCategories();    });
+</script>
+
+</body>
+</html>

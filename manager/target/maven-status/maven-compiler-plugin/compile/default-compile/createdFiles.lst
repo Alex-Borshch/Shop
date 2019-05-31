@@ -1,0 +1,6 @@
+com\level\Managers\LoginManager.class
+com\level\Managers\ProductManager.class
+com\level\Managers\OrderManager.class
+com\level\Managers\CategoryManager.class
+com\level\Managers\RegistrationManager.class
+com\level\Main.class

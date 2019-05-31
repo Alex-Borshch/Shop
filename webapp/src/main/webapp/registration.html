@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="order.html">Корзина</a>
+            <a href="order.html"><i class="fa fa-shopping-cart fa-3x" aria-hidden="true"></i></a>;
+
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="index.html">Домой</a></li>
+                <li><a href="#">О нас</a></li>
+                <li><a href="#">Отзывы</a></li>
+                <li><a href="#">Адреса</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="main">
+    <div class="registration_bar">
+        <form id="loginbox" class="registration_form">
+            <p>
+                <label for="logReg">Логин</label>
+                <input type="text" class="login_input" id="logReg" name="login" placeholder="Логин" required>
+            </p>
+            <p>
+                <label for="mailReg">Email</label>
+                <input type="text" class="login_input" id="mailReg" name="email" placeholder="Email" required>
+            </p>
+            <p>
+                <label for="passReg">Пароль</label>
+                <input type="password" class="login_input" id="passReg" name='password' placeholder="Пароль" required>
+            </p>
+
+            <p>
+                <input type="button" class="btn-submit" onclick=main.registration() name="singin_button" value="Регистрация">
+            </p>
+            <br>
+            <p>Есть аккаунт?</p>
+            <a href=login.html>
+                Войти!
+            </a>
+        </form>
+    </div>
+</div>
+<script src="js/lib/jquery-3.1.0.min.js"></script>
+<script src="js/login.js"></script>
+</body>
+</html>

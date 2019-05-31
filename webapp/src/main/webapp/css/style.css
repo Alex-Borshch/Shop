@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
+body{
+    background-color: #f2f2f2;
+    font-family: "Lato";
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+
+    margin-top: 70px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Raleway";
+    font-weight: 300;
+    color: #ffffff
+}
+
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.centered {
+    text-align: center;
+}
+
+a {
+
+    color:#f85c37;
+
+}
+
+a:hover, a:focus {
+    color: #7b7b7b;
+    text-decoration: none;
+    outline: 0;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.main {
+    background: url(../images/main.jpg) no-repeat center top;
+    padding: 50px 0 41px 0;
+    background-attachment: scroll;
+    min-height: 800px;
+    width: 100%;
+    overflow: hidden;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.navbar {
+    font-weight: 800;
+    font-size: 14px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.navbar-inverse {
+    background-color: #000000;
+    border-color: #000000;
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+    background-color: #2d2d8d;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #999;
+    font-weight: bolder;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+.nav-pills > li > a {
+    border-radius: 8px;
+}
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+    color: #fff;
+    background-color: #B8AF3D;
+}
+
+#headerWrap{
+    background: url(../images/main.jpg) no-repeat center top;
+    margin-top: -10px;
+    padding-top: 20px;
+    text-align: center;
+    background-attachment: scroll;
+    min-height: 500px;
+    width: 100%;
+
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#cards, #memory, #mothers,#processors,#controllers{
+    font-size: 22px;
+    font-weight: bold;
+    text-align: left;
+}
+.sidebar{
+    width: 250px;
+    float: left;
+
+}
+.category_title{
+    border: 1px solid seagreen;
+    padding: 35px 0 36px 25px;
+    background-color: rgba(64, 181, 239,0.5);
+
+}
+.category_title h3{
+    color: #9ff4a6;
+    padding: 0 0px 18px 15px;
+    text-decoration-line: underline;
+}
+.category_title a{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+
+}
+.login {
+    border: 1px solid #36f74c;
+    border-radius: 3px;
+    height: 24px;
+    width: 200px;
+    margin: inherit;
+}
+
+.category_list li{
+    display: inline-block;
+    margin: 0 110px 25px 0;
+    border: 1px green;
+}
+.category_list p{
+    color: #ffffff;;
+    font-weight: bold;
+    font-size: 20px;
+    float: left;
+}
+.products_list{
+    width: 900px;
+    margin-right: 29px;
+    float: right;
+    text-align: center;
+}
+
+.videocards_list p{
+    color: #ffffff;;
+    font-weight: bold;
+    font-size: 20px;
+    float: left;
+}
+.about{
+    margin-top: 25px;
+    border: 1px solid seagreen;
+    padding: 35px 0px 36px 25px;
+    background-color: rgba(64, 181, 239,0.5);
+}
+
+.right_col{
+    width: 900px;
+    margin-right: 29px;
+    float: right;
+}
+.my_categories{
+    width: 250px;
+    border: 1px solid white;
+    margin: 10px;
+    float: left;
+    text-align: center;
+}
+
+
+
+
+
+
+

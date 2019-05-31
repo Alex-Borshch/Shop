@@ -1,0 +1,10 @@
+com\webConvertation\controller\CategoryServlet.class
+com\webConvertation\utils\JSON.class
+com\webConvertation\controller\LoginServlet.class
+com\webConvertation\utils\JSONResponses.class
+com\webConvertation\controller\ProductServlet.class
+com\webConvertation\controller\RegistrationServlet.class
+com\webConvertation\controller\MainServlet$RequestHandler.class
+com\webConvertation\controller\MainServlet.class
+com\webConvertation\controller\OrderServlet.class
+com\webConvertation\utils\JSON$1.class

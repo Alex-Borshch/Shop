@@ -1,0 +1,39 @@
+.main{
+    background: url(../images/main.jpg) no-repeat center top;
+    padding: 50px 0 41px 0;
+    background-attachment: scroll;
+    min-height: 800px;
+    width: 100%;
+    overflow: hidden;
+}
+.registration_bar{
+    min-height: 500px;
+    text-align: center;
+    width: 600px;
+    margin: 100px;
+    float: left;
+}
+.registration_form a{
+    font-size: large;
+    color: red;
+}
+.registration_form{
+    width: 300px;
+    margin: 0px auto 30px;
+    padding: 10px;
+    position: absolute;
+    transform: translateX(-50%) translateY(-50%);
+    top: 50%;
+    left: 50%;
+
+    /* Font styles */
+    font-family: 'Raleway', 'Lato', Arial, sans-serif;
+    color: white;
+    text-shadow: 0 2px 1px rgba(0,0,0,0.3);
+}
+.a_reg{
+    margin-left: 10px;
+}
+.login_input{
+    color: black;
+}

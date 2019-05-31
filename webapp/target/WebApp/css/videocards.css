@@ -1,0 +1,15 @@
+.products{
+    width: 300px;
+    height: 350px;
+    border: 1px solid white;
+    margin: 10px;
+    float: left;
+    text-align: center;
+}
+.right_div{
+    width: 900px;
+    margin-right: 29px;
+    float: right;
+    min-height: 700px;
+    overflow: hidden;
+}

@@ -1,0 +1,18 @@
+.products_in_order {
+    width: 900px;
+    min-height: 700px;
+    border: 1px solid white;
+    margin: 10px;
+    float: left;
+    text-align: center;
+    background-attachment: scroll;
+    margin: 25px;
+}
+.productt {
+    width: 300px;
+    height: 350px;
+    border: 1px solid white;
+    margin: 10px;
+    float: left;
+    text-align: center;
+}
